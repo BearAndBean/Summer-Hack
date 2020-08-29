@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 150px;
+    left: 2rem;
+    top: 2rem;
+}
+
+
+body {
+    background-image: url(./media/1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: "Architects Daughter", sans-serif;
+    min-height: 100vh;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px; 
+}
+
+/* body {
+    background-image: url(./media/1.svg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: "Architects Daughter", sans-serif;
+} */
+
+.card {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image""text""stats";
+
+
+    position: fixed;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    font-family: "Architect Daughter";
+    text-align: center;
+    transition: 0.5s ease;
+    margin:  auto;
+    z-index: auto;  
+}
+
+.card-image {
+    grid-area: image;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-text {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card1*/
+.card.card1{
+    visibility: hidden;*/
+}
+
+.card-image.card1 {
+    background: url("./media/learnANewLanguage.jpg"); 
+    background-size: cover;
+}
+
+.card-text.card1 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card2*/
+
+.card.card2{
+    visibility: hidden;*/
+}
+
+.card-image.card2 {
+    background: url("./media/biking.jpg");
+    background-size: cover;
+}
+
+.card-text.card2 {
+    grid-area: text;
+    margin: 25px;
+}
+
+header,
+form {
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .popupCard {
+    display: flex;
+    position: absolute;
+} */
+
+.popup {
+
+    position: absolute;
+    top: 20%;
+    left: 50%; 
+    margin-left: -99px;
+    
+    cursor: pointer;
+    background: white;
+
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.popup:hover {
+    background: none;
+    border: 1px solid black;
+}
+
+/* The actual popup (appears on top) */
+.popup .popupCard {
+    visibility: hidden;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: -5%;
+    left: 30%;
+    margin-left: -150px;
+    font-size: 15px;
+    display: grid;
+    grid-template-rows: 0px 1fr;
+    grid-template-columns: 0px 1fr;
+}
+
+/* Popup arrow */
+.popup .popupCard::after {
+    content: "";
+    top: 100%;
+    /* left: 20%; */
+    margin-left: 280px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+.popup .hide {
+    visibility: hidden;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
