@@ -1,29 +1,43 @@
 let cardArray = [
     "popUp1",
     "popUp2",
+    "popUp3"
 ];
 
-let cardArrayExist = 0; 
-let randomCard = 0;
+let cardExist = ""; 
+let randomNumber = 0;
 let popup = 0;
-
+let generateCard = 0;
 
 
 
 function cardPopUp() {
-
-
     // Choose one at random from the array 
     // If one exist, remove it  
     // Display the chosen one 
-    
-    randomCard = Math.round(Math.random() * (cardArray.length - 1)); 
-    popup = document.getElementById(cardArray[randomCard]);
-    if(cardArrayExist == 0){
-        cardArrayExist.classList.toggle("show");
-    }
-    cardArrayExist = cardArray[randomCard];
+
+    //Generate a number and grab a card from it.
+    randomNumber = Math.round(Math.random() * (cardArray.length - 1)); 
+    generateCard = cardArray[randomNumber];
+
+    //If the card exists, find a new card
+    while(cardExist == generateCard){
+        randomNumber = Math.round(Math.random() * (cardArray.length - 1)); 
+        generateCard = cardArray[randomNumber];
+    }    
+
+    // If the card exists, toggle it off 
+    if(cardExist !== "" && cardExist !== generateCard){
+        popup = document.getElementById(cardExist);
+        popup.classList.toggle("show");
+    } 
+
+    //Display the card 
+    popup = document.getElementById(generateCard);
+    cardExist = generateCard;
+    console.log(cardExist); 
     popup.classList.toggle("show");
+    
     
 }
 

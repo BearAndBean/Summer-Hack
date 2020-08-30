@@ -12,37 +12,44 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
-    <title>Search The Summer Away</title>
+    <title>Search The Summer Away</title>  
 </head>
 
 <body>
-    <img class="logo" src="./media/LogoSun.png">
-    <header>
-        <h1>Pick your activities</h1>
-    </header>
+    <div class="top-nav"><img class="logo" src="./media/LogoSun.png"></div>    
+    
+    <div class="box">
+        
+        <button onclick="cardPopUp()">Find something Fun!</button>
 
-
-
-    <button class="popup" onclick="cardPopUp()">Click me!</button>
-
-    <form>
-        <div class="card card1" id="popUp1">
-            <div class="card-image card1"></div>
-            <div class="card-text card1">
-                <h2>Post One</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime
-                    quod deserunt eligendi dolor</p>
+        <!-- This structure allow each card to be individual-->
+        <form class="cardHolder">
+            <div class="card card1" id="popUp1">
+                <div class="card-image card1"></div>
+                <div class="card-text card1">
+                    <h2>Post One</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime
+                        quod deserunt eligendi dolor</p>
+                </div>
             </div>
-        </div>
-        <div class="card card2" id="popUp2">
-            <div class="card-image card2"></div>
-            <div class="card-text card2">
-                <h2>Post Two</h2>
-                <p>Adipisicing elit. Ducimus, repudiandae corrupti amet temporibus omnis provident illum maxime
-                    quod. Lorem ipsum dolor</p>
+            <div class="card card2" id="popUp2">
+                <div class="card-image card2"></div>
+                <div class="card-text card2">
+                    <h2>Post Two</h2>
+                    <p>Adipisicing elit. Ducimus, repudiandae corrupti amet temporibus omnis provident illum maxime
+                        quod. Lorem ipsum dolor</p>
+                </div>
             </div>
-        </div>
-    </form>
+            <div class="card card3" id="popUp3">
+                <div class="card-image card3"></div>
+                <div class="card-text card3">
+                    <h2>Post Three</h2>
+                    <p>Adipisicing elit. Ducimus, repudiandae corrupti amet temporibus omnis provident illum maxime
+                        quod. Lorem ipsum dolor</p>
+                </div>
+            </div>
+        </form>
+    </div>
 
     <div class="todo-container">
         <ul class="todo-list"></ul>
