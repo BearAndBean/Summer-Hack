@@ -17,6 +17,28 @@
     height: 150px;
 }
 
+
+.top-text{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;;
+}
+
+div.group{
+    margin-top: 30vh;
+}
+
+.dev-text{
+    padding-top: 20vh; 
+    font-size: 40px;
+    text-align: center;
+}
+
+.githubLink-text{
+    font-size: 20px;
+    text-align: center;
+}
+
 .about {
     position: absolute;
     top: 25px;
