@@ -1,35 +1,34 @@
 let cardArray = [
-    "popUp1",
-    "popUp2",
-    "popUp3",
-    "popUp4",
-    "popUp5",
-    "popUp6",
-    "popUp7",
-    "popUp8",
-    "popUp9",
-    "popUp10",
-    "popUp11",
-    "popUp12",
-    "popUp13",
-    "popUp14",
-    "popUp15",
-    "popUp16",
-    "popUp17",
-    "popUp18",
-    "popUp19",
-    "popUp20",
-    "popUp21",
-    "popUp22",
-    "popUp23",
-    "popUp23",
-    "popUp24",
-    "popUp25",
-    "popUp26",
-    "popUp27",
-    "popUp28",
-    "popUp29",
-    "popUp31"
+    "Biking",
+    "Camping",
+    "Learn-a-new-language",
+    "Fishing",
+    "Road-Trip",
+    "Watching-the-Sunrise",
+    "Grow-a-Garden",
+    "Hiking",
+    "Swimming",
+    "Tour-around-your-city",
+    "Running",
+    "Paint",
+    "Rugby",
+    "Tennis",
+    "Basketball",
+    "Soccer",
+    "Surfing",
+    "Rockclimbing",
+    "Beach-Volleyball",
+    "Archery",
+    "Golf",
+    "Have-a-campfire",
+    "Jump-Rope",
+    "Canoeing",
+    "Frisbee-Golf",
+    "Enjoy-the-Beach",
+    "Barbecue",
+    "Create-a-Flower-patch",
+    "Pick-up-an-interesting-book",
+    "Go-berry-picking"
 ];
 
 let cardExist = "";
@@ -72,7 +71,7 @@ function cardPopUp() {
 
 }
 
-const todoCard = document.getElementById(cardExist);
+// var todoCard = document.getElementById(generateCard).value;
 
 function addTodo(event) {
     event.preventDefault();

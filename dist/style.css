@@ -605,8 +605,8 @@ form {
     padding-left: 25px;
     margin-left: -1rem;
     background: rgb(241, 232, 149);
-    width: 9rem;
-    height: 50vh;
+    width: 23rem;
+    height: 70vh;
     border-bottom-right-radius: 18%;
     box-shadow: 15px 5px 15px rgba(50, 65, 18, 0.8);
     z-index: -1;
@@ -640,10 +640,15 @@ form {
 }
 
 .todo {
-    margin: 0.5rem;
+    display: flex;
+    margin-top: 10px;
+    margin: 10px;
+    padding: 10px;
+    height: 30px;
+    width: 19rem;
     background: white;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -668,6 +673,7 @@ form {
     width: 40px;
     height: 40px;
     position: relative;
+    visibility: hidden;
 }
 
 .todo-item {
@@ -802,5 +808,36 @@ button:hover {
         display: block;
         align-items: center;
 
+    }
+
+    .todo-previous {
+        display: block;
+        margin-top: 10vh;
+        justify-content: center;
+        text-align: left;
+        padding-left: 25px;
+        margin-left: -1rem;
+        background: rgb(241, 232, 149);
+        width: 30rem;
+        height: 70vh;
+        border-bottom-right-radius: 18%;
+        box-shadow: 15px 5px 15px rgba(50, 65, 18, 0.8);
+        z-index: -1;
+    }
+
+    .todo {
+        display: flex;
+        margin-top: 10px;
+        margin: 10px;
+        padding: 10px;
+        height: 30px;
+        width: 25rem;
+        background: white;
+        color: black;
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 0.5s ease;
     }
 }
