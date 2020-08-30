@@ -17,6 +17,22 @@
     height: 150px; 
 }
 
+.about{
+    position: absolute;
+    top: 25px; 
+    right: 25px;
+    list-style-type: none;
+    font-size: 40px;
+}
+
+.return{
+    position: absolute;
+    top: 25px; 
+    right: 25px;
+    list-style-type: none;
+    font-size: 40px;
+}
+
 body {
     
     
@@ -146,6 +162,7 @@ button {
     font-size: 30px;
     text-align: center;
     border-radius: 35px;
+    z-index: 1;
 }
 
 button:hover {

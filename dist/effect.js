@@ -11,6 +11,7 @@ let generateCard = 0;
 
 
 
+
 function cardPopUp() {
     // Choose one at random from the array 
     // If one exist, remove it  
@@ -23,6 +24,7 @@ function cardPopUp() {
     //If the card exists, find a new card
     while(cardExist == generateCard){
         randomNumber = Math.round(Math.random() * (cardArray.length - 1)); 
+        console.log(randomNumber);
         generateCard = cardArray[randomNumber];
     }    
 
@@ -34,8 +36,7 @@ function cardPopUp() {
 
     //Display the card 
     popup = document.getElementById(generateCard);
-    cardExist = generateCard;
-    console.log(cardExist); 
+    cardExist = generateCard; 
     popup.classList.toggle("show");
     
     
