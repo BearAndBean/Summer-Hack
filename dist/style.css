@@ -18,23 +18,24 @@
 }
 
 
-.top-text{
+.top-text {
     text-align: center;
     font-size: 25px;
-    padding-bottom: 20px;;
+    padding-bottom: 20px;
+    ;
 }
 
-div.group{
+div.group {
     margin-top: 30vh;
 }
 
-.dev-text{
-    padding-top: 20vh; 
+.dev-text {
+    padding-top: 20vh;
     font-size: 40px;
     text-align: center;
 }
 
-.githubLink-text{
+.githubLink-text {
     font-size: 20px;
     text-align: center;
 }
@@ -637,13 +638,15 @@ form {
 .todo-favourite {
     display: block;
     margin-top: -23.5rem;
-    margin-left: 35rem;
+    margin-right: 0;
     padding-right: 12px;
     justify-content: center;
     text-align: right;
     background: rgb(92, 125, 145);
     color: white;
-    width: 12rem;
+    padding-top: 3rem;
+    font-size: 40px;
+    width: 20rem;
     height: 50vh;
     border-top-left-radius: 18%;
     box-shadow: 25px 5px 15px rgba(15, 28, 82, 0.9);
@@ -675,6 +678,7 @@ form {
     justify-content: space-between;
     align-items: center;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 
 .todo li {
@@ -704,6 +708,11 @@ form {
 
 .fa-star {
     pointer-events: none;
+}
+
+.fall {
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
 }
 
 .box {
@@ -765,7 +774,8 @@ button:hover {
     .btn {
         display: block;
         /* width: 100%; */
-        margin-left: -10rem;
+        margin-top: 60vh;
+        margin-left: 10rem;
     }
 }
 

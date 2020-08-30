@@ -35,17 +35,22 @@ let cardExist = "";
 let randomNumber = 0;
 let popup = 0;
 let generateCard = 0;
+let tempArray = [];
+let count = 0;
 
 const todoButton = document.querySelector(".btn");
 const todoList = document.querySelector(".todo-list");
 
 todoButton.addEventListener("click", addTodo);
+todoList.addEventListener("click", deleteCheck);
 
 function cardPopUp() {
     // Choose one at random from the array 
     // If one exist, remove it  
     // Display the chosen one 
-
+    if (count >= 12) {
+        document.location.reload(true);
+    }
     //Generate a number and grab a card from it.
     randomNumber = Math.floor(Math.random() * (cardArray.length - 1));
     generateCard = cardArray[randomNumber];
@@ -68,6 +73,8 @@ function cardPopUp() {
     cardExist = generateCard;
     popup.classList.toggle("show");
 
+
+    count++;
 
 }
 
@@ -95,7 +102,33 @@ function addTodo(event) {
     todoList.appendChild(todoDiv);
 
     //clear todo input value
-    todoCard.value = "";
+    // todoCard.value = "";
+}
+
+
+function deleteCheck(e) {
+    const delTodo = document.querySelector(".todo")
+    delTodo.addEventListener("click", deleteCheck);
+
+
+    const item = e.target;
+
+    if (item.classList[0] === "todo-item") {
+        const todo = item.parentElement;
+        todo.classList.add("fall");
+        // removeLocalTodos(todo);
+        todo.addEventListener("transitionend", function () {
+            todo.remove();
+            count--;
+        });
+        //todo.remove();
+    }
+
+    //Check mark
+    // if (item.classList[0] === "complete-btn") {
+    //     const todo = item.parentElement;
+    //     todo.classList.toggle("completed");
+    // }
 }
 // function myFunction() {
 //     var x = document.getElementById("yourPopup");
