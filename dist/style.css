@@ -67,8 +67,8 @@ form{
 
 .card {
     display: grid;
-    grid-template-columns: 400px;
-    grid-template-rows: 225px 105px 40px;
+    grid-template-columns: 600px;
+    grid-template-rows: 400px 100px 50px;
     grid-template-areas: "image""text""stats";
 
 
@@ -100,7 +100,7 @@ form{
 }
 
 .card-image.card1 {
-    background: url("./media/learnANewLanguage.jpg"); 
+    background: url("./media/biking.jpg"); 
     background-size: cover;
 }
 
@@ -116,7 +116,7 @@ form{
 }
 
 .card-image.card2 {
-    background: url("./media/biking.jpg");
+    background: url("./media/camping.jpg");
     background-size: cover;
 }
 
@@ -125,14 +125,14 @@ form{
     margin: 25px;
 }
 
-/*card2*/
+/*card3*/
 
 .card.card3{
     visibility: hidden;
 }
 
 .card-image.card3 {
-    background: url("./media/4.1.jpg");
+    background: url("./media/learnANewLanguage.jpg");
     background-size: cover;
 }
 
@@ -140,6 +140,456 @@ form{
     grid-area: text;
     margin: 25px;
 }
+
+/*card4*/
+
+.card.card4{
+    visibility: hidden;
+}
+
+.card-image.card4 {
+    background: url("./media/fishing.jpg");
+    background-size: cover;
+}
+
+.card-text.card4 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card5*/
+
+.card.card5{
+    visibility: hidden;
+}
+
+.card-image.card5 {
+    background: url("./media/roadTrip.jpg");
+    background-size: cover;
+}
+
+.card-text.card5 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card6*/
+
+.card.card6{
+    visibility: hidden;
+}
+
+.card-image.card6 {
+    background: url("./media/sunrise.jpg");
+    background-size: cover;
+}
+
+.card-text.card6 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card7*/
+
+.card.card7{
+    visibility: hidden;
+}
+
+.card-image.card7 {
+    background: url("./media/veggieGarden.jpg");
+    background-size: cover;
+}
+
+.card-text.card7 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card8*/
+
+.card.card8{
+    visibility: hidden;
+}
+
+.card-image.card8 {
+    background: url("./media/hiking.jpg");
+    background-size: cover;
+}
+
+.card-text.card8 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card9*/
+
+.card.card9{
+    visibility: hidden;
+}
+
+.card-image.card9 {
+    background: url("./media/swimming2.png"); 
+    background-size: cover;
+   
+}
+
+/*card10*/
+
+.card.card10{
+    visibility: hidden;
+}
+
+.card-image.card10 {
+    background: url("./media/tour.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card10 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card11*/
+
+.card.card11{
+    visibility: hidden;
+}
+
+.card-image.card11 {
+    background: url("./media/running.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card11 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card12*/
+
+.card.card12{
+    visibility: hidden;
+}
+
+.card-image.card12 {
+    background: url("./media/paint.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card12 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card13*/
+
+.card.card13{
+    visibility: hidden;
+}
+
+.card-image.card13 {
+    background: url("./media/rugby.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card13 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card14*/
+
+.card.card14{
+    visibility: hidden;
+}
+
+.card-image.card14 {
+    background: url("./media/tennis.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card14 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card15*/
+
+.card.card15{
+    visibility: hidden;
+}
+
+.card-image.card15 {
+    background: url("./media/basketball.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card15 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card16*/
+
+.card.card16{
+    visibility: hidden;
+}
+
+.card-image.card16 {
+    background: url("./media/soccer.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card16 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card17*/
+
+.card.card17{
+    visibility: hidden;
+}
+
+.card-image.card17 {
+    background: url("./media/surfing.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card17 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card18*/
+
+.card.card18{
+    visibility: hidden;
+}
+
+.card-image.card18 {
+    background: url("./media/rockClimbing.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card18 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card19*/
+
+.card.card19{
+    visibility: hidden;
+}
+
+.card-image.card19 {
+    background: url("./media/beachVolleyball.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card19 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card20*/
+
+.card.card20{
+    visibility: hidden;
+}
+
+.card-image.card20 {
+    background: url("./media/archery.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card20 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card21*/
+
+.card.card21{
+    visibility: hidden;
+}
+
+.card-image.card21 {
+    background: url("./media/golf.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card21 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card22*/
+
+.card.card22{
+    visibility: hidden;
+}
+
+.card-image.card22 {
+    background: url("./media/campfire.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card22 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card23*/
+
+.card.card23{
+    visibility: hidden;
+}
+
+.card-image.card23 {
+    background: url("./media/jumpRope.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card23 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card24*/
+
+.card.card24{
+    visibility: hidden;
+}
+
+.card-image.card24 {
+    background: url("./media/canoeing.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card24 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card25*/
+
+.card.card25{
+    visibility: hidden;
+}
+
+.card-image.card25 {
+    background: url("./media/frisbee.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card25 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card26*/
+
+.card.card26{
+    visibility: hidden;
+}
+
+.card-image.card26 {
+    background: url("./media/beach.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card26 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card27*/
+
+.card.card27{
+    visibility: hidden;
+}
+
+.card-image.card27 {
+    background: url("./media/barbacue.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card27 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card28*/
+
+.card.card28{
+    visibility: hidden;
+}
+
+.card-image.card28 {
+    background: url("./media/flowers.png"); 
+    background-size: cover;
+   
+}
+
+.card-text.card28 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card29*/
+
+.card.card29{
+    visibility: hidden;
+}
+
+.card-image.card29 {
+    background: url("./media/book.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card29 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card30*/
+
+.card.card30{
+    visibility: hidden;
+}
+
+.card-image.card30 {
+    background: url("./media/berryPick.jpg"); 
+    background-size: cover;
+   
+}
+
+.card-text.card30 {
+    grid-area: text;
+    margin: 25px;
+}
+
 
 .box{
     position: fixed;
