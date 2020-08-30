@@ -6,52 +6,52 @@
 
 .logo {
     position: absolute;
-    top: 25px; 
-    left: 25px; 
+    top: 25px;
+    left: 25px;
     width: 150px;
     height: 100px;
 }
 
-.top-nav{ 
+.top-nav {
     width: 100%;
-    height: 150px; 
+    height: 150px;
 }
 
-.about{
+.about {
     position: absolute;
-    top: 25px; 
+    top: 25px;
     right: 25px;
     list-style-type: none;
     font-size: 40px;
 }
 
-.return{
+.return {
     position: absolute;
-    top: 25px; 
+    top: 25px;
     right: 25px;
     list-style-type: none;
     font-size: 40px;
 }
 
 body {
-    
-    
+
+
     align-items: center;
     justify-content: center;
     background-color: #e09e48;
     font-family: "Architects Daughter", sans-serif;
     min-height: 100vh;
     align-items: center;
-    
-    /* overflow: hidden; */
+
+    overflow: hidden;
 }
 
-form{
-    position: fixed; 
+form {
+    position: fixed;
     margin-left: 14.25%;
     margin-top: -2%;
     width: 400px;
-    height: 500px; 
+    height: 500px;
 }
 
 /* body {
@@ -67,19 +67,24 @@ form{
 
 .card {
     display: grid;
-    grid-template-columns: 600px;
-    grid-template-rows: 400px 100px 50px;
+    grid-template-columns: 400px;
+    grid-template-rows: 325px 105px 40px;
     grid-template-areas: "image""text""stats";
-
-
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     position: fixed;
     border-radius: 18px;
     background: white;
     font-family: "Architect Daughter";
     text-align: center;
     transition: 0.5s ease;
-    margin:  auto;
-    z-index: auto;  
+    cursor: pointer;
+    margin: auto;
+    z-index: auto;
+}
+
+.card:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 .card-image {
@@ -94,13 +99,14 @@ form{
     margin: 25px;
 }
 
+
 /*card1*/
-.card.card1{
+.card.card1 {
     visibility: hidden;
 }
 
 .card-image.card1 {
-    background: url("./media/biking.jpg"); 
+    background: url("./media/biking.jpg");
     background-size: cover;
 }
 
@@ -111,7 +117,7 @@ form{
 
 /*card2*/
 
-.card.card2{
+.card.card2 {
     visibility: hidden;
 }
 
@@ -127,7 +133,7 @@ form{
 
 /*card3*/
 
-.card.card3{
+.card.card3 {
     visibility: hidden;
 }
 
@@ -143,7 +149,7 @@ form{
 
 /*card4*/
 
-.card.card4{
+.card.card4 {
     visibility: hidden;
 }
 
@@ -159,7 +165,7 @@ form{
 
 /*card5*/
 
-.card.card5{
+.card.card5 {
     visibility: hidden;
 }
 
@@ -175,7 +181,7 @@ form{
 
 /*card6*/
 
-.card.card6{
+.card.card6 {
     visibility: hidden;
 }
 
@@ -191,7 +197,7 @@ form{
 
 /*card7*/
 
-.card.card7{
+.card.card7 {
     visibility: hidden;
 }
 
@@ -207,7 +213,7 @@ form{
 
 /*card8*/
 
-.card.card8{
+.card.card8 {
     visibility: hidden;
 }
 
@@ -223,26 +229,26 @@ form{
 
 /*card9*/
 
-.card.card9{
+.card.card9 {
     visibility: hidden;
 }
 
 .card-image.card9 {
-    background: url("./media/swimming2.png"); 
+    background: url("./media/swimming2.png");
     background-size: cover;
-   
+
 }
 
 /*card10*/
 
-.card.card10{
+.card.card10 {
     visibility: hidden;
 }
 
 .card-image.card10 {
-    background: url("./media/tour.jpg"); 
+    background: url("./media/tour.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card10 {
@@ -252,14 +258,14 @@ form{
 
 /*card11*/
 
-.card.card11{
+.card.card11 {
     visibility: hidden;
 }
 
 .card-image.card11 {
-    background: url("./media/running.jpg"); 
+    background: url("./media/running.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card11 {
@@ -269,14 +275,14 @@ form{
 
 /*card12*/
 
-.card.card12{
+.card.card12 {
     visibility: hidden;
 }
 
 .card-image.card12 {
-    background: url("./media/paint.jpg"); 
+    background: url("./media/paint.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card12 {
@@ -286,14 +292,14 @@ form{
 
 /*card13*/
 
-.card.card13{
+.card.card13 {
     visibility: hidden;
 }
 
 .card-image.card13 {
-    background: url("./media/rugby.jpg"); 
+    background: url("./media/rugby.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card13 {
@@ -303,14 +309,14 @@ form{
 
 /*card14*/
 
-.card.card14{
+.card.card14 {
     visibility: hidden;
 }
 
 .card-image.card14 {
-    background: url("./media/tennis.jpg"); 
+    background: url("./media/tennis.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card14 {
@@ -320,14 +326,14 @@ form{
 
 /*card15*/
 
-.card.card15{
+.card.card15 {
     visibility: hidden;
 }
 
 .card-image.card15 {
-    background: url("./media/basketball.jpg"); 
+    background: url("./media/basketball.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card15 {
@@ -337,14 +343,14 @@ form{
 
 /*card16*/
 
-.card.card16{
+.card.card16 {
     visibility: hidden;
 }
 
 .card-image.card16 {
-    background: url("./media/soccer.jpg"); 
+    background: url("./media/soccer.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card16 {
@@ -354,14 +360,14 @@ form{
 
 /*card17*/
 
-.card.card17{
+.card.card17 {
     visibility: hidden;
 }
 
 .card-image.card17 {
-    background: url("./media/surfing.jpg"); 
+    background: url("./media/surfing.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card17 {
@@ -371,14 +377,14 @@ form{
 
 /*card18*/
 
-.card.card18{
+.card.card18 {
     visibility: hidden;
 }
 
 .card-image.card18 {
-    background: url("./media/rockClimbing.jpg"); 
+    background: url("./media/rockClimbing.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card18 {
@@ -388,14 +394,14 @@ form{
 
 /*card19*/
 
-.card.card19{
+.card.card19 {
     visibility: hidden;
 }
 
 .card-image.card19 {
-    background: url("./media/beachVolleyball.jpg"); 
+    background: url("./media/beachVolleyball.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card19 {
@@ -405,14 +411,14 @@ form{
 
 /*card20*/
 
-.card.card20{
+.card.card20 {
     visibility: hidden;
 }
 
 .card-image.card20 {
-    background: url("./media/archery.jpg"); 
+    background: url("./media/archery.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card20 {
@@ -422,14 +428,14 @@ form{
 
 /*card21*/
 
-.card.card21{
+.card.card21 {
     visibility: hidden;
 }
 
 .card-image.card21 {
-    background: url("./media/golf.jpg"); 
+    background: url("./media/golf.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card21 {
@@ -439,14 +445,14 @@ form{
 
 /*card22*/
 
-.card.card22{
+.card.card22 {
     visibility: hidden;
 }
 
 .card-image.card22 {
-    background: url("./media/campfire.jpg"); 
+    background: url("./media/campfire.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card22 {
@@ -456,14 +462,14 @@ form{
 
 /*card23*/
 
-.card.card23{
+.card.card23 {
     visibility: hidden;
 }
 
 .card-image.card23 {
-    background: url("./media/jumpRope.jpg"); 
+    background: url("./media/jumpRope.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card23 {
@@ -473,14 +479,14 @@ form{
 
 /*card24*/
 
-.card.card24{
+.card.card24 {
     visibility: hidden;
 }
 
 .card-image.card24 {
-    background: url("./media/canoeing.jpg"); 
+    background: url("./media/canoeing.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card24 {
@@ -490,14 +496,14 @@ form{
 
 /*card25*/
 
-.card.card25{
+.card.card25 {
     visibility: hidden;
 }
 
 .card-image.card25 {
-    background: url("./media/frisbee.jpg"); 
+    background: url("./media/frisbee.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card25 {
@@ -507,14 +513,14 @@ form{
 
 /*card26*/
 
-.card.card26{
+.card.card26 {
     visibility: hidden;
 }
 
 .card-image.card26 {
-    background: url("./media/beach.jpg"); 
+    background: url("./media/beach.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card26 {
@@ -524,14 +530,14 @@ form{
 
 /*card27*/
 
-.card.card27{
+.card.card27 {
     visibility: hidden;
 }
 
 .card-image.card27 {
-    background: url("./media/barbacue.jpg"); 
+    background: url("./media/barbacue.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card27 {
@@ -541,14 +547,14 @@ form{
 
 /*card28*/
 
-.card.card28{
+.card.card28 {
     visibility: hidden;
 }
 
 .card-image.card28 {
-    background: url("./media/flowers.png"); 
+    background: url("./media/flowers.png");
     background-size: cover;
-   
+
 }
 
 .card-text.card28 {
@@ -558,14 +564,14 @@ form{
 
 /*card29*/
 
-.card.card29{
+.card.card29 {
     visibility: hidden;
 }
 
 .card-image.card29 {
-    background: url("./media/book.jpg"); 
+    background: url("./media/book.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card29 {
@@ -575,14 +581,14 @@ form{
 
 /*card30*/
 
-.card.card30{
+.card.card30 {
     visibility: hidden;
 }
 
 .card-image.card30 {
-    background: url("./media/berryPick.jpg"); 
+    background: url("./media/berryPick.jpg");
     background-size: cover;
-   
+
 }
 
 .card-text.card30 {
@@ -591,17 +597,98 @@ form{
 }
 
 
-.box{
+.todo-previous {
+    display: block;
+    margin-top: 10vh;
+    justify-content: center;
+    text-align: left;
+    padding-left: 25px;
+    margin-left: -1rem;
+    background: rgb(241, 232, 149);
+    width: 9rem;
+    height: 50vh;
+    border-bottom-right-radius: 18%;
+    box-shadow: 15px 5px 15px rgba(50, 65, 18, 0.8);
+    z-index: -1;
+}
+
+.todo-favourite {
+    display: block;
+    margin-top: -23.5rem;
+    margin-left: 35rem;
+    padding-right: 12px;
+    justify-content: center;
+    text-align: right;
+    background: rgb(92, 125, 145);
+    color: white;
+    width: 12rem;
+    height: 50vh;
+    border-top-left-radius: 18%;
+    box-shadow: 25px 5px 15px rgba(15, 28, 82, 0.9);
+    z-index: -1;
+
+}
+
+.todo-previous:hover,
+.todo-favourite:hover {
+    transform: scale(0.98) translateY(5px);
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.favourite-btn {
+    background: #ff6f47;
+    color: white;
+    border: none;
+    padding: 1px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.starred-btn {
+    background: rgb(94, 201, 94);
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+}
+
+.fa-star {
+    pointer-events: none;
+}
+
+.box {
     position: fixed;
-    margin-top: 5%; 
+    margin-top: 5%;
     margin-left: 25%;
-    height: 80%; 
-    width: 50%; 
+    height: 80%;
+    width: 50%;
     z-index: auto;
 }
 
 button {
-
+    align-items: center;
     position: fixed;
     cursor: pointer;
     background: white;
@@ -616,7 +703,7 @@ button {
 }
 
 button:hover {
-    background: white;
+    background: linear-gradient(to right, hotpink, pink);
     border: 1px solid black;
 }
 
@@ -646,3 +733,74 @@ button:hover {
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .btn {
+        display: block;
+        /* width: 100%; */
+        margin-left: -10rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 225px 155px 40px;
+        grid-template-areas: "image""text""stats";
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+        position: fixed;
+        border-radius: 18px;
+        background: white;
+        font-family: "Architect Daughter";
+        text-align: center;
+        transition: 0.5s ease;
+        cursor: pointer;
+        margin: auto;
+        z-index: auto;
+    }
+
+    .btn {
+        position: fixed;
+        margin-bottom: 100vh;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .cardHolder {
+        display: block;
+        margin-left: -5rem;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn {
+        display: block;
+        margin-top: 62vh;
+        margin-left: 0rem;
+    }
+
+    .cardHolder {
+        display: block;
+        margin-left: -3rem;
+
+    }
+}
+
+@media screen and (min-width: 1171px) {
+    .btn {
+        display: block;
+        margin-top: 50vh;
+        margin-left: 17rem;
+        /* align-items: center; */
+
+    }
+
+    .cardHolder {
+        width: 600px;
+        margin-top: -10vh;
+        display: block;
+        align-items: center;
+
+    }
+}

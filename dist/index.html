@@ -12,23 +12,25 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
-    <title>Search The Summer Away</title>  
+    <title>Search The Summer Away</title>
 </head>
 
 <body>
     <div class="top-nav">
         <img class="logo" src="./media/LogoSun.png">
-        
-        <ul><li class="about"><a href="about.html">About!</a></li></ul>
-    </div>    
-    
+
+        <ul>
+            <li class="about"><a href="about.html">About!</a></li>
+        </ul>
+    </div>
+
     <div class="box">
-        
-        <button onclick="cardPopUp()">Find something Fun!</button>
+
+        <button class="btn" onclick="cardPopUp()">Find something Fun!</button>
 
         <!-- This structure allow each card to be individual-->
         <form class="cardHolder">
-            <div class="card card1" id="popUp1">
+            <div class="card card1" id="popUp1" value="Biking">
                 <div class="card-image card1"></div>
                 <div class="card-text card1">
                     <h2>Biking</h2>
@@ -217,7 +219,7 @@
                     <p>Grill up your choice of food, and kickback with some buds.</p>
                 </div>
             </div>
-            <div class="card card28" id="popUp28">  
+            <div class="card card28" id="popUp28">
                 <div class="card-image card28"></div>
                 <div class="card-text card28">
                     <h2>Create a Flower patch</h2>
@@ -242,11 +244,13 @@
         </form>
     </div>
 
-    <div class="todo-container">
-        <ul class="todo-list"></ul>
+    <div class="todo-previous">
+        <ul class="todo-list">hello</ul>
     </div>
 
-    <div class="todo"></div>
+    <!-- <div class="todo-favourite">
+        <ul class="fav-list">bye</ul>
+    </div> -->
 
     <script src="./effect.js"></script>
 </body>
