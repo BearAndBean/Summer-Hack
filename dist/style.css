@@ -17,6 +17,10 @@
     height: 150px;
 }
 
+.cool-cat{
+   margin-left: 85vh;
+   margin-top: 5vh; 
+}
 
 .top-text {
     text-align: center;
@@ -25,18 +29,38 @@
     ;
 }
 
+<<<<<<< Updated upstream
 div.group {
     margin-top: 30vh;
 }
 
 .dev-text {
     padding-top: 20vh;
+=======
+div.group{
+    margin-top: 10vh;
+}
+
+.dev-text{
+    padding-top: 10vh; 
+>>>>>>> Stashed changes
     font-size: 40px;
     text-align: center;
 }
 
+<<<<<<< Updated upstream
 .githubLink-text {
     font-size: 20px;
+=======
+.info{
+    padding-top: 10vh; 
+    font-size: 15px;
+    text-align: center;
+}
+
+.githubLink-text{
+    font-size: 15px;
+>>>>>>> Stashed changes
     text-align: center;
 }
 
