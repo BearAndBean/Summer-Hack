@@ -10,6 +10,6 @@ SearchTheSummerAway generates different summer activities to get you moving and 
 # Website: http://www.searchthesummeraway.tech/about.html
 
 
-Created by: 
-Reily Maahs
-Khanh Do  
+Created by:     
+Reily Maahs    
+Khanh Do      
